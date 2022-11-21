@@ -44,3 +44,7 @@ img {
     border-right: 1px solid white;
     
 }
+.menu ul li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
