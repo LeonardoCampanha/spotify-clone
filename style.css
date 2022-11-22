@@ -1,17 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
-    
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
-.container {
-    width: 100%;
-    margin: auto;
-}
+
 .navbar {
     margin: auto;
     display: flex;
@@ -20,10 +15,16 @@
     justify-content: space-between;
     align-items: center;    
     height: 80px;
+    width: 100%;
     background-color: black;
+    min-height: 54px;
+    position: relative;
+    top: 0;
+    
 
 }
 img {
+    padding-top: 5px;
     width: 132px;
     color: white;
     
@@ -35,16 +36,97 @@ img {
 }
 .menu ul{
     display: flex;
-    gap: 40px;
-    font-weight: 700;
-    font-size: 14px;
-    
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 0.95rem;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    letter-spacing: -0.01em;
+   
 }
 .menu ul #separator {
     border-right: 1px solid white;
+    cursor: default;
     
 }
 .menu ul li:hover{
     color: #1ed760;
     cursor: pointer;
+}
+.call-to-action {
+    background-color: rgb(29, 117, 222);
+    padding-left: 20%;
+    padding-right: 20%;
+    height: auto;
+    color: white;
+    text-align: left;
+    
+}
+.cta-container h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-top: 70px;
+    
+}
+.cta-container h2 {
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 2.5rem;
+    font-size: 1.45rem;
+}
+.cta-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 40px;
+    
+}
+.cta-buttons a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.cta-buttons a:nth-child(1){
+    background-color: black;
+    width: 8.8rem;
+    text-align: center;
+    height: 3.2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 14px;
+}
+.cta-buttons a:nth-child(2){
+    border: 2px solid white;
+    width: 9.5rem;
+    text-align: center;
+    height: 3.2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.cta-footer {
+    
+    font-size: 0.65rem;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    font-weight: 500;
+    max-width: 630px;
+    
+    
+}
+.cta-footer a {
+    margin-right: 3px;
+}
+.cta-footer a:visited {
+    color: white;
 }
