@@ -1,1 +1,3 @@
-A Spotify frontpage clone
+# SPOTIFY CLONE
+
+*A Spotify frontpage clone*
