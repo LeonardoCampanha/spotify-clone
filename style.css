@@ -181,6 +181,7 @@ img {
 }
 .cards-container-header {
     text-align: center;
+    color: black;
 
 }
 .cards-container-header h1 {
@@ -204,16 +205,16 @@ img {
 .cards-box {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
 }
 .card {
     background-color: white;
     height: 606px;
-    padding: 35px 15px;
+    padding: 20px 15px;
     width: 270px;
     color: black;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow:rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 8px 8px;
 };
 }
 .cards-box ul {
@@ -223,3 +224,20 @@ img {
 /* .cards-box ul li:before {
     content: '✓  ';
 } */
+
+.card-header span {
+    background-color: #0d72ea;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 0px 4px 10px 0px;
+    
+}
+.card-header h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 15px 0px 5px;
+}
